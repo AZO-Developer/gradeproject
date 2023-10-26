@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_projects/screens/Login_Screen.dart';
 import 'package:flutter_projects/screens/create_new_password.dart';
 import 'package:flutter_projects/screens/forgot_password.dart';
+import 'package:flutter_projects/screens/mentors.dart';
+import 'package:flutter_projects/screens/top_mentors.dart';
 
 void main() {
   // runApp(Container(color:Colors.red,));
@@ -16,7 +18,7 @@ void main() {
   @override
   Widget build(BuildContext context) {
   return MaterialApp(
-   home:  CreateNewPassword(),
+   home: Mentors (),
 
   );
 
@@ -25,4 +27,7 @@ void main() {
 
   }
   }
+
+class TobMentors {
+}
 
